@@ -1,0 +1,23 @@
+{
+  "name": "@digital-id/sdk",
+  "version": "0.0.1",
+  "main": "dist/src/index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "npx tsc",
+    "fmt": "prettier --write ./src"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.27.0",
+    "@gumhq/sdk": "^2.1.0",
+    "@solana/web3.js": "^1.74.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.1",
+    "@types/node-fetch": "^2.6.3",
+    "buffer": "^6.0.3",
+    "prettier": "^2.7.1",
+    "typescript": "^5.0.3"
+  }
+}

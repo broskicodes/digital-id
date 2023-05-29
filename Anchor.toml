@@ -1,0 +1,19 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+digital_id = "CEVERfBqyTgjStQ27ZQVoSXUYQztSmKyWLkQPRebAMb8"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/home/braeden/.config/solana/id.json"
+
+[[test.genesis]]
+address = "CDDMdCAWB5AXgvEy7XJRggAu37QPG1b9aJXndZoPUkkm"
+program = "/home/braeden/play/solana/misc/gpl/target/deploy/gpl_core.so"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/src/**/*.ts"

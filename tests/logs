@@ -1,0 +1,44 @@
+Streaming transaction logs mentioning CEVERfBqyTgjStQ27ZQVoSXUYQztSmKyWLkQPRebAMb8. Confirmed commitment
+Transaction executed in slot 13546:
+  Signature: 2gZNAx6LUwUic7GPqgcmBSAxj1qhP5hfDQq8adqiSs7jrvxVbrYV2k7jNqjZugXFBuBbMVT6ddjRy2aHRqKuP2qS
+  Status: Ok
+  Log Messages:
+    Program BPFLoaderUpgradeab1e11111111111111111111111 invoke [1]
+    Upgraded program CEVERfBqyTgjStQ27ZQVoSXUYQztSmKyWLkQPRebAMb8
+    Program BPFLoaderUpgradeab1e11111111111111111111111 success
+Transaction executed in slot 16172:
+  Signature: 4cQ9iD9QpWEwEt1zFytb5Dq34ya67PyEuKBZrqHLLucCGw4rKGtA2gZhsqB9Gzkq8GyA3DqRbPdvUcRUWF6JJa3K
+  Status: Ok
+  Log Messages:
+    Program BPFLoaderUpgradeab1e11111111111111111111111 invoke [1]
+    Upgraded program CEVERfBqyTgjStQ27ZQVoSXUYQztSmKyWLkQPRebAMb8
+    Program BPFLoaderUpgradeab1e11111111111111111111111 success
+Transaction executed in slot 16877:
+  Signature: x5NKuvh8tref2uuhEX252V7vZcauE9LuGMMSMpoFkrYvdaUDKwVtCwRmLZPzdDEbLqAUTNmxhYZGGNR4qJjeswy
+  Status: Ok
+  Log Messages:
+    Program BPFLoaderUpgradeab1e11111111111111111111111 invoke [1]
+    Upgraded program CEVERfBqyTgjStQ27ZQVoSXUYQztSmKyWLkQPRebAMb8
+    Program BPFLoaderUpgradeab1e11111111111111111111111 success
+Transaction executed in slot 17070:
+  Signature: 3St48XgmBp9TJju1p1vpGfZvWyy6h1uNVeK7dVuKe4Y1yba6C9nH8o2JJ54rzNiPZ9Q745VggdUiGvyR4ihu7rKS
+  Status: Ok
+  Log Messages:
+    Program BPFLoaderUpgradeab1e11111111111111111111111 invoke [1]
+    Upgraded program CEVERfBqyTgjStQ27ZQVoSXUYQztSmKyWLkQPRebAMb8
+    Program BPFLoaderUpgradeab1e11111111111111111111111 success
+Transaction executed in slot 17716:
+  Signature: Us5rbdtsqJMXNqSVeRVMe2mF8XwVEWcnNgGfaUqyvmqWhqwhGkQ1Mqwus4kVmdTHWDVurNRw8qom6ibmP42CUqz
+  Status: Ok
+  Log Messages:
+    Program BPFLoaderUpgradeab1e11111111111111111111111 invoke [1]
+    Upgraded program CEVERfBqyTgjStQ27ZQVoSXUYQztSmKyWLkQPRebAMb8
+    Program BPFLoaderUpgradeab1e11111111111111111111111 success
+Transaction executed in slot 23987:
+  Signature: 27T5zzr1C5DdG71MkSbHfhx41nMLvqMM9PaYLPL6C4oeF8d2kUXKxfB8vrbraLAPuAuGsUN8oe7WVfhx6nVuyueQ
+  Status: Ok
+  Log Messages:
+    Program BPFLoaderUpgradeab1e11111111111111111111111 invoke [1]
+    Upgraded program CEVERfBqyTgjStQ27ZQVoSXUYQztSmKyWLkQPRebAMb8
+    Program BPFLoaderUpgradeab1e11111111111111111111111 success
+Disconnected: receiving on an empty and disconnected channel

@@ -1,0 +1,106 @@
+{
+    "version": "0.1.0",
+    "name": "digital_id",
+    "instructions": [
+        {
+            "name": "createProfile",
+            "accounts": [
+                {
+                    "name": "payer",
+                    "isMut": true,
+                    "isSigner": true
+                },
+                {
+                    "name": "owner",
+                    "isMut": false,
+                    "isSigner": true
+                },
+                {
+                    "name": "authority",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "gumUser",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "gumProfile",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "gumProfileMetadata",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "gplCoreProgram",
+                    "isMut": false,
+                    "isSigner": false
+                },
+                {
+                    "name": "systemProgram",
+                    "isMut": false,
+                    "isSigner": false
+                }
+            ],
+            "args": [
+                {
+                    "name": "initBytes",
+                    "type": {
+                        "array": [
+                            "u8",
+                            32
+                        ]
+                    }
+                },
+                {
+                    "name": "metadataCid",
+                    "type": {
+                        "array": [
+                            "u8",
+                            64
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "accounts": [
+        {
+            "name": "Authority",
+            "type": {
+                "kind": "struct",
+                "fields": [
+                    {
+                        "name": "owner",
+                        "type": "publicKey"
+                    },
+                    {
+                        "name": "initBytes",
+                        "type": {
+                            "array": [
+                                "u8",
+                                32
+                            ]
+                        }
+                    },
+                    {
+                        "name": "metadataContentId",
+                        "type": {
+                            "array": [
+                                "u8",
+                                64
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "address": "CEVERfBqyTgjStQ27ZQVoSXUYQztSmKyWLkQPRebAMb8"
+    }
+}
